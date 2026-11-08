@@ -1,0 +1,170 @@
+[
+  {
+    "sid": "S00",
+    "title": "Cover",
+    "first_page": 1,
+    "last_page": 1,
+    "words": 258,
+    "summarised": false
+  },
+  {
+    "sid": "S01",
+    "title": "Press release",
+    "first_page": 2,
+    "last_page": 4,
+    "words": 824,
+    "summarised": true
+  },
+  {
+    "sid": "S02",
+    "title": "Executive summary",
+    "first_page": 4,
+    "last_page": 5,
+    "words": 396,
+    "summarised": true
+  },
+  {
+    "sid": "S03",
+    "title": "Mission, contents and lists",
+    "first_page": 6,
+    "last_page": 7,
+    "words": 462,
+    "summarised": false
+  },
+  {
+    "sid": "S04",
+    "title": "Context",
+    "first_page": 8,
+    "last_page": 8,
+    "words": 366,
+    "summarised": true
+  },
+  {
+    "sid": "S05",
+    "title": "Recent Economic Developments, Outlook, And Risks",
+    "first_page": 8,
+    "last_page": 12,
+    "words": 1434,
+    "summarised": true
+  },
+  {
+    "sid": "S06",
+    "title": "Program Performance",
+    "first_page": 12,
+    "last_page": 13,
+    "words": 507,
+    "summarised": true
+  },
+  {
+    "sid": "S07",
+    "title": "Policy Discussions: A. Fiscal Policy",
+    "first_page": 13,
+    "last_page": 17,
+    "words": 2071,
+    "summarised": true
+  },
+  {
+    "sid": "S08",
+    "title": "B. Public Investment and Debt Management",
+    "first_page": 17,
+    "last_page": 18,
+    "words": 973,
+    "summarised": true
+  },
+  {
+    "sid": "S09",
+    "title": "C. Governance, Transparency, and Broader Structural Reforms",
+    "first_page": 19,
+    "last_page": 21,
+    "words": 1016,
+    "summarised": true
+  },
+  {
+    "sid": "S10",
+    "title": "Program Modalities And Other Issues",
+    "first_page": 21,
+    "last_page": 24,
+    "words": 1934,
+    "summarised": true
+  },
+  {
+    "sid": "S11",
+    "title": "Staff Appraisal",
+    "first_page": 25,
+    "last_page": 26,
+    "words": 936,
+    "summarised": true
+  },
+  {
+    "sid": "S12",
+    "title": "Figures and statistical tables",
+    "first_page": 27,
+    "last_page": 48,
+    "words": 11679,
+    "summarised": true
+  },
+  {
+    "sid": "S13",
+    "title": "Annex I. Country engagement strategy",
+    "first_page": 49,
+    "last_page": 53,
+    "words": 2412,
+    "summarised": true
+  },
+  {
+    "sid": "S14",
+    "title": "Annex II. Risk assessment matrix",
+    "first_page": 54,
+    "last_page": 57,
+    "words": 1140,
+    "summarised": true
+  },
+  {
+    "sid": "S15",
+    "title": "Appendix I. Letter of intent",
+    "first_page": 58,
+    "last_page": 60,
+    "words": 1282,
+    "summarised": true
+  },
+  {
+    "sid": "S16",
+    "title": "Attachment I. Memorandum of economic and financial policies",
+    "first_page": 61,
+    "last_page": 84,
+    "words": 11121,
+    "summarised": true
+  },
+  {
+    "sid": "S17",
+    "title": "Attachment II. Technical memorandum of understanding",
+    "first_page": 85,
+    "last_page": 96,
+    "words": 4757,
+    "summarised": true
+  },
+  {
+    "sid": "S18",
+    "title": "Debt sustainability analysis",
+    "first_page": 96,
+    "last_page": 125,
+    "words": 14395,
+    "summarised": true
+  },
+  {
+    "sid": "S19",
+    "title": "Staff supplement",
+    "first_page": 125,
+    "last_page": 125,
+    "words": 224,
+    "summarised": true
+  },
+  {
+    "sid": "S20",
+    "title": "Executive Director's statement",
+    "first_page": 126,
+    "last_page": 130,
+    "words": 2490,
+    "summarised": true
+  }
+]

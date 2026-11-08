@@ -1,0 +1,56 @@
+[
+  {
+    "field": "gdp_growth_forecast_pct",
+    "hand_value": 4.0,
+    "year": 2023.0,
+    "pdf_page": 29.0,
+    "printed": "GDP at constant prices 2.8 1.7 4.1 4.0 4.4 3.3 3.8 3.9 4.0",
+    "pipeline_value": 4.0,
+    "agrees": true
+  },
+  {
+    "field": "headline_inflation_rate_pct",
+    "hand_value": 3.5,
+    "year": 2023.0,
+    "pdf_page": 29.0,
+    "printed": "Consumer prices (period average) 3.5 3.0 3.3 3.5 3.2 3.0 3.0 3.0 3.0",
+    "pipeline_value": 3.5,
+    "agrees": true
+  },
+  {
+    "field": "central_bank_policy_rate_pct",
+    "hand_value": 5.0,
+    "year": 2023.0,
+    "pdf_page": 23.0,
+    "printed": "In 2023, BEAC raised its main policy rate (TIAO) by 50 basis points to 5 percent in March 2023 —a cumulative 175 basis points increase since November 2021, and tightened banks’ refinancing [...]",
+    "pipeline_value": 5.0,
+    "agrees": true
+  },
+  {
+    "field": "non_performing_loan_ratio",
+    "hand_value": 16.8,
+    "year": 2022.0,
+    "pdf_page": 37.0,
+    "printed": "Nonperforming loans to total gross loans 5.0 8.0 16.2 22.5 27.5 21.0 16.9 18.6 16.8",
+    "pipeline_value": 16.8,
+    "agrees": true
+  },
+  {
+    "field": "unemployment_rate_pct",
+    "hand_value": null,
+    "year": null,
+    "pdf_page": null,
+    "printed": "no figure in the report; p.49 says only that it is among the world's highest",
+    "pipeline_value": null,
+    "agrees": true
+  },
+  {
+    "field": "tier_1_capital_ratio",
+    "hand_value": null,
+    "year": null,
+    "pdf_page": null,
+    "printed": "not reported; Table 6 gives total regulatory capital to risk-weighted assets only",
+    "pipeline_value": null,
+    "agrees": true
+  }
+]

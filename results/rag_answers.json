@@ -1,0 +1,440 @@
+[
+  {
+    "qid": "Q01",
+    "question": "How much money did the completion of the third ECF review release to the Republic of Congo?",
+    "reference": "SDR 32.4 million (about US$43 million), bringing total disbursements to SDR 226.8 million.",
+    "gold_pages": [
+      2
+    ],
+    "retrieved": [
+      "C097",
+      "C086",
+      "C039",
+      "C001",
+      "C055"
+    ],
+    "pages": [
+      2,
+      23,
+      24,
+      30,
+      31,
+      38,
+      39,
+      41,
+      42,
+      43
+    ],
+    "similarity": [
+      0.715,
+      0.663,
+      0.644,
+      0.642,
+      0.624
+    ],
+    "retrieval_seconds": 0.133,
+    "page_hit": true,
+    "gold_recall": 1.0,
+    "answer": "The completion of the third review under the Extended Credit Facility (ECF) allowed for an immediate disbursement of SDR 32.4 million (about US$43 million) to the Republic of Congo [C001], which corresponds to 20 percent of its quota [C097].",
+    "citations": [
+      "C001",
+      "C097"
+    ],
+    "answerable": true,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "All details in the answer regarding the disbursement amount in SDR and USD, and the percentage of quota, are directly supported by the text in the passages.",
+    "completeness_reason": "The answer fully addresses the question using the precise amounts provided in the text."
+  },
+  {
+    "qid": "Q02",
+    "question": "How many performance criteria, indicative targets and structural benchmarks were missed?",
+    "reference": "Three of five performance criteria, two of five indicative targets and three of five structural benchmarks.",
+    "gold_pages": [
+      3,
+      4,
+      12
+    ],
+    "retrieved": [
+      "C100",
+      "C170",
+      "C018",
+      "C167",
+      "C257"
+    ],
+    "pages": [
+      12,
+      13,
+      43,
+      80,
+      81,
+      124,
+      125
+    ],
+    "similarity": [
+      0.43,
+      0.43,
+      0.423,
+      0.407,
+      0.396
+    ],
+    "retrieval_seconds": 0.083,
+    "page_hit": true,
+    "gold_recall": 0.3333333333333333,
+    "answer": "The provided passages do not contain sufficient information to determine how many performance criteria, indicative targets, and structural benchmarks were missed.",
+    "citations": [],
+    "answerable": false,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "The answer correctly states that the provided passages do not contain sufficient information to determine the exact number of missed performance criteria and indicative targets.",
+    "completeness_reason": "The model correctly assessed that the passages lack the complete numerical breakdown for missed PCs and ITs, making a refusal appropriate."
+  },
+  {
+    "qid": "Q03",
+    "question": "How fast did the economy grow in 2022 and what drove the growth?",
+    "reference": "Growth was 1.7 percent in 2022 (preliminary), led by the non-oil sector at 3.3 percent.",
+    "gold_pages": [
+      8,
+      61
+    ],
+    "retrieved": [
+      "C010",
+      "C260",
+      "C015",
+      "C129",
+      "C212"
+    ],
+    "pages": [
+      8,
+      9,
+      11,
+      61,
+      105,
+      126,
+      127
+    ],
+    "similarity": [
+      0.626,
+      0.596,
+      0.591,
+      0.577,
+      0.55
+    ],
+    "retrieval_seconds": 0.112,
+    "page_hit": true,
+    "gold_recall": 1.0,
+    "answer": "In 2022, overall economic growth was estimated at 1.7 percent [C010], [C129]. Growth was driven by the non-oil sector, which grew by 3.3 percent [C010], [C129]. Consumption and investment were spurred by government spending (social spending and infrastructure), government domestic arrears payments, and increased activity in agriculture, manufacturing, and services [C010], [C129]. In contrast, oil production contracted [C010], [C260].",
+    "citations": [
+      "C010",
+      "C129",
+      "C260"
+    ],
+    "answerable": true,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "Every claim made in the answer, including the 1.7 percent overall growth, 3.3 percent non-oil growth, drivers of consumption and investment, and oil sector contraction, is directly supported by the provided text.",
+    "completeness_reason": "The answer fully addresses both parts of the question regarding the economic growth rate in 2022 and its drivers using details from the text."
+  },
+  {
+    "qid": "Q04",
+    "question": "What fuel price measure was taken as a prior action for this review?",
+    "reference": "A gasoline price rise of at least 10 percent was the prior action. The staff report cites a planned 25 percent rise by early July 2023; the staff supplement records a 24 percent rise decreed on 30 June, effective 15 July.",
+    "gold_pages": [
+      4,
+      15,
+      125
+    ],
+    "retrieved": [
+      "C258",
+      "C023",
+      "C137",
+      "C138",
+      "C152"
+    ],
+    "pages": [
+      15,
+      64,
+      65,
+      72,
+      73,
+      125
+    ],
+    "similarity": [
+      0.506,
+      0.486,
+      0.482,
+      0.449,
+      0.438
+    ],
+    "retrieval_seconds": 0.086,
+    "page_hit": true,
+    "gold_recall": 0.6666666666666666,
+    "answer": "As a prior action for the third review, gasoline prices were required to increase by at least 10 percent, while aligning fuel prices paid by all manufacturers to at least pump prices [C023], [C138]. To fulfill this, authorities announced a 24 percent increase in the price of gasoline in a joint ministerial decree on June 30, 2023 (effective July 15, 2023), which met the prior action requirement [C258].",
+    "citations": [
+      "C023",
+      "C138",
+      "C258"
+    ],
+    "answerable": true,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "Every claim made in the answer regarding the fuel price prior action is directly supported by citations C023, C138, and C258.",
+    "completeness_reason": "The answer fully addresses the question by detailing the required percentage increase for gasoline, the alignment of manufacturer fuel prices to pump prices, and the actual implementation of the decree."
+  },
+  {
+    "qid": "Q05",
+    "question": "What did the regional central bank BEAC do with its policy rate in 2023?",
+    "reference": "BEAC raised its main policy rate (TIAO) by 50 basis points to 5 percent in March 2023, 175 basis points in total since November 2021.",
+    "gold_pages": [
+      23
+    ],
+    "retrieved": [
+      "C038",
+      "C035",
+      "C141",
+      "C049",
+      "C263"
+    ],
+    "pages": [
+      21,
+      22,
+      23,
+      29,
+      67,
+      128,
+      129
+    ],
+    "similarity": [
+      0.499,
+      0.459,
+      0.445,
+      0.441,
+      0.415
+    ],
+    "retrieval_seconds": 0.096,
+    "page_hit": true,
+    "gold_recall": 1.0,
+    "answer": "In March 2023, BEAC raised its main policy rate (TIAO) by 50 basis points to 5 percent, marking a cumulative 175 basis points increase since November 2021 [C038]. For the remainder of 2023, BEAC also stood ready to tighten monetary policy further if regional inflation rose or external reserves deviated from the targeted path [C038].",
+    "citations": [
+      "C038"
+    ],
+    "answerable": true,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "All facts stated in the answer, including the March 2023 rate hike, the rate reaching 5 percent, the cumulative increase, and BEAC's readiness to tighten further, are directly supported by passage [C038].",
+    "completeness_reason": "The answer fully captures what the passages report regarding BEAC's policy rate actions and stance in 2023."
+  },
+  {
+    "qid": "Q06",
+    "question": "What is the Republic of Congo's risk of debt distress, and is its debt judged sustainable?",
+    "reference": "The country is in debt distress (external and overall), but debt is judged sustainable.",
+    "gold_pages": [
+      4,
+      96,
+      113
+    ],
+    "retrieved": [
+      "C193",
+      "C226",
+      "C225",
+      "C086",
+      "C224"
+    ],
+    "pages": [
+      38,
+      39,
+      96,
+      97,
+      111,
+      112
+    ],
+    "similarity": [
+      0.814,
+      0.772,
+      0.771,
+      0.766,
+      0.763
+    ],
+    "retrieval_seconds": 0.102,
+    "page_hit": true,
+    "gold_recall": 0.3333333333333333,
+    "answer": "The Republic of Congo's overall risk of debt distress and risk of external debt distress are classified as \"In Debt Distress\" (with risks remaining high) [C193], [C225]. Despite being in distress, its overall and external debt is assessed and judged to be \"sustainable\" [C193], [C225].",
+    "citations": [
+      "C193",
+      "C225"
+    ],
+    "answerable": true,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "Every claim made in the answer, including the risk classification and the assessment of sustainability, is explicitly supported by the provided text passages.",
+    "completeness_reason": "The answer fully addresses both parts of the user question regarding the risk of debt distress and whether the debt is judged sustainable, drawing directly from the text."
+  },
+  {
+    "qid": "Q07",
+    "question": "What inflation rate do staff expect for 2023?",
+    "reference": "Inflation is expected to average 3.5 percent in 2023.",
+    "gold_pages": [
+      11,
+      29
+    ],
+    "retrieved": [
+      "C131",
+      "C015",
+      "C263",
+      "C132",
+      "C230"
+    ],
+    "pages": [
+      11,
+      62,
+      115,
+      128,
+      129
+    ],
+    "similarity": [
+      0.616,
+      0.54,
+      0.528,
+      0.52,
+      0.513
+    ],
+    "retrieval_seconds": 0.076,
+    "page_hit": true,
+    "gold_recall": 0.5,
+    "answer": "Staff expect inflation to average 3.5 percent in 2023 [C015].",
+    "citations": [
+      "C015"
+    ],
+    "answerable": true,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "The answer directly matches the text in passage C015 (and C131), stating that inflation is expected to average 3.5 percent in 2023.",
+    "completeness_reason": "The answer provides the exact inflation rate expected by staff for 2023 as found in the text."
+  },
+  {
+    "qid": "Q08",
+    "question": "What share of the population lives in extreme poverty?",
+    "reference": "Around 40 percent of the population is extremely poor.",
+    "gold_pages": [
+      49
+    ],
+    "retrieved": [
+      "C095",
+      "C143",
+      "C110",
+      "C142",
+      "C029"
+    ],
+    "pages": [
+      18,
+      41,
+      49,
+      67,
+      68
+    ],
+    "similarity": [
+      0.356,
+      0.347,
+      0.344,
+      0.338,
+      0.33
+    ],
+    "retrieval_seconds": 0.084,
+    "page_hit": true,
+    "gold_recall": 1.0,
+    "answer": "Around 40 percent of the population is extremely poor.",
+    "citations": [
+      "C110"
+    ],
+    "answerable": true,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "The answer directly reflects the statement in passage C110 that around 40 percent of the population is extremely poor.",
+    "completeness_reason": "The answer provides the exact share of the population living in extreme poverty as stated in the text."
+  },
+  {
+    "qid": "Q09",
+    "question": "How could the Congo Basin forest help the country's financing?",
+    "reference": "Preserving the rainforest and afforestation may attract foreign private financing, such as carbon credits.",
+    "gold_pages": [
+      4,
+      11,
+      129
+    ],
+    "retrieved": [
+      "C266",
+      "C112",
+      "C004",
+      "C016",
+      "C133"
+    ],
+    "pages": [
+      4,
+      11,
+      12,
+      50,
+      62,
+      63,
+      130
+    ],
+    "similarity": [
+      0.635,
+      0.62,
+      0.618,
+      0.618,
+      0.616
+    ],
+    "retrieval_seconds": 0.084,
+    "page_hit": true,
+    "gold_recall": 0.6666666666666666,
+    "answer": "Preserving and afforesting or reforesting the Republic of Congo's share of the Congo Basin rainforest may attract and facilitate foreign private financing, such as environmental, social, and governance (ESG) bonds or carbon credits [C004, C016, C133]. Additionally, the urgent need to preserve the Congo Basin supports the authorities' request for IMF assistance under the Resilience and Sustainability Facility (RSF), which would catalyze financing from other partners and private investors [C266].",
+    "citations": [
+      "C004",
+      "C016",
+      "C133",
+      "C266"
+    ],
+    "answerable": true,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "Every claim made in the answer regarding the Congo Basin forest helping financing through ESG bonds, carbon credits, and RSF assistance catalyzing partners is directly supported by the provided text.",
+    "completeness_reason": "The answer thoroughly captures all the mechanisms mentioned in the text regarding how preserving and afforesting or reforesting the Congo Basin can attract private financing and support IMF assistance."
+  },
+  {
+    "qid": "Q10",
+    "question": "What inflation rate does the report project for the year 2030?",
+    "reference": "Not in the report: the projections stop in 2028.",
+    "gold_pages": [],
+    "retrieved": [
+      "C015",
+      "C263",
+      "C131",
+      "C132",
+      "C011"
+    ],
+    "pages": [
+      9,
+      11,
+      62,
+      128,
+      129
+    ],
+    "similarity": [
+      0.603,
+      0.584,
+      0.578,
+      0.554,
+      0.553
+    ],
+    "retrieval_seconds": 0.085,
+    "page_hit": null,
+    "gold_recall": null,
+    "answer": "The provided passages do not contain an inflation rate projection for the year 2030.",
+    "citations": [],
+    "answerable": false,
+    "faithfulness": 5,
+    "completeness": 5,
+    "faithfulness_reason": "The answer accurately reflects that the provided passages do not mention any inflation rate projection for the year 2030.",
+    "completeness_reason": "The response fully answers the user's question by correctly identifying that the text lacks the requested information."
+  }
+]

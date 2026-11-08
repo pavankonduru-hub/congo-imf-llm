@@ -1,0 +1,149 @@
+{
+  "kept": [
+    {
+      "kind": "strength",
+      "label": "Resilient non-oil sector growth",
+      "explanation": "Non-oil sectors such as agriculture, manufacturing, and services supported the post-pandemic economic recovery.",
+      "pdf_page": 8,
+      "quote": "Overall economic growth, estimated at 1.7 percent based on the revised national account (Box 1), was driven by non-oil growth (3.3 percent).",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote directly supports the claim that economic growth was driven by non-oil growth, which is correctly classed as a strength.",
+      "kept": true
+    },
+    {
+      "kind": "strength",
+      "label": "Healthy banking sector solvency and liquidity",
+      "explanation": "The banking system maintained strong capital adequacy ratios and sufficient liquidity to expand private sector credit.",
+      "pdf_page": 10,
+      "quote": "Banking system liquidity and solvency remain relatively healthy. The capital adequacy ratio reached 23 percent at end-2022, reflecting capital positions outpacing increases in risk - weighted assets",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote confirms that banking liquidity and solvency are healthy with a high capital adequacy ratio, supporting this strength.",
+      "kept": true
+    },
+    {
+      "kind": "strength",
+      "label": "Large current account surplus",
+      "explanation": "Strong oil export revenues generated a significant current account surplus in 2022 that facilitated substantial external debt service.",
+      "pdf_page": 10,
+      "quote": "Large oil export revenues drove the current account surplus to 19.4 percent of GDP —notwithstanding an inflated import bill due to spillovers from Russia’s war in Ukraine",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote confirms a large current account surplus driven by oil export revenues, which is a strength.",
+      "kept": true
+    },
+    {
+      "kind": "strength",
+      "label": "Steadily declining external debt",
+      "explanation": "External debt burdens fell considerably as high oil revenues enabled debt repayments tied to oil prices.",
+      "pdf_page": 14,
+      "quote": "External debt has been steadily declining (by 12.7 percentage points of GDP in 2022) owing to high oil prices and debt service to the largest external commercial creditors",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote confirms external debt has been steadily declining due to high oil prices, which is a strength.",
+      "kept": true
+    },
+    {
+      "kind": "strength",
+      "label": "Clearance of official external debt arrears",
+      "explanation": "The government successfully settled outstanding external arrears with bilateral official creditors, improving its external relations.",
+      "pdf_page": 23,
+      "quote": "Congo further reduced its external arrears, clearing all external arrears to official creditors, with only one uncontested arrear claim to a commercial creditor remaining open:",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote confirms the clearing of all external arrears to official creditors, acting as a strength.",
+      "kept": true
+    },
+    {
+      "kind": "strength",
+      "label": "Potential for external climate financing",
+      "explanation": "Environmental conservation in the Congo Basin presents an opportunity to access foreign private and climate financing.",
+      "pdf_page": 4,
+      "quote": "Congo’s efforts to preserve the rainforest in the Congo Basin may attract additional foreign private financing.",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote states rainforest preservation efforts may attract additional foreign private financing, supporting this strength.",
+      "kept": true
+    },
+    {
+      "kind": "vulnerability",
+      "label": "Public debt in distress",
+      "explanation": "Despite being sustainable, public debt remains in distress due to new arrears accumulation and high debt levels.",
+      "pdf_page": 4,
+      "quote": "Newly recognized domestic arrears and the temporary accumulation of new external arrears impede progresses made in debt repayment, implying that debt remains sustainable but “in distress”.",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote confirms public debt remains in distress due to new and newly recognized arrears, supporting this vulnerability.",
+      "kept": true
+    },
+    {
+      "kind": "vulnerability",
+      "label": "Weak macroeconomic program performance",
+      "explanation": "Program targets were repeatedly missed across fiscal balances, arrears prevention, and structural reform benchmarks.",
+      "pdf_page": 4,
+      "quote": "Three out of five performance criteria, two out of five indicative targets, and three out of five structural benchmarks were missed.",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote lists multiple missed performance criteria, indicative targets, and structural benchmarks, supporting this vulnerability.",
+      "kept": true
+    },
+    {
+      "kind": "vulnerability",
+      "label": "High economic dependence on oil",
+      "explanation": "Congo's concentration in oil makes fiscal revenues and economic activity highly susceptible to international oil price swings.",
+      "pdf_page": 50,
+      "quote": "The oil sector accounts for 80 percent of exports and almost two thirds of fiscal revenues.",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote confirms the high share of oil in exports and fiscal revenues, supporting this economic vulnerability.",
+      "kept": true
+    },
+    {
+      "kind": "vulnerability",
+      "label": "Pervasive food insecurity and extreme poverty",
+      "explanation": "A high proportion of the population suffers from severe poverty and food insecurity, especially in rural areas.",
+      "pdf_page": 49,
+      "quote": "More broadly, 30 percent of the overall population is undernourished with almost 90 percent of people estimated to be moderately or severely food insecure during 2019-21 (FAOSTAT).",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote provides statistics on undernourishment and food insecurity, supporting this socio-economic vulnerability.",
+      "kept": true
+    },
+    {
+      "kind": "vulnerability",
+      "label": "Fiscal loosening from fuel subsidies",
+      "explanation": "Rising costs of untargeted fuel subsidies loosened the fiscal position and expanded the non-oil primary deficit.",
+      "pdf_page": 10,
+      "quote": "The non-oil primary deficit widened by 0.8 percent of non-oil GDP relative to CR 23/89 mainly owing to substantially higher-than-anticipated oil-related transfers",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote confirms the widening of the non-oil primary deficit due to oil-related transfers/subsidies, supporting this vulnerability.",
+      "kept": true
+    },
+    {
+      "kind": "vulnerability",
+      "label": "High vulnerability to climate change shocks",
+      "explanation": "Agricultural dependence on rain and weak basic infrastructure make the economy highly vulnerable to severe climate events.",
+      "pdf_page": 50,
+      "quote": "As a result, higher temperatures, rainfall anomalies, and increasingly frequent and intense flooding have been taking lives, damaging homes, and increasing the number of food insecure",
+      "quote_on_page": true,
+      "judge_supported": true,
+      "judge_correct_class": true,
+      "judge_reason": "The quote describes the severe impacts of climate shocks like higher temperatures and flooding, supporting this vulnerability.",
+      "kept": true
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,1171 @@
+{
+  "backend": "gemini_api",
+  "writer": "gemini-3.8-flash",
+  "judge": "gemini-3.5-flash-lite",
+  "calls": 116,
+  "live": 0,
+  "stored": 116,
+  "repairs": 0,
+  "rows": [
+    {
+      "step": "summary:S01",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 17.34,
+      "tokens_in": 1229,
+      "tokens_out": 113,
+      "repair": false
+    },
+    {
+      "step": "judge:S01",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.82,
+      "tokens_in": 1347,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S02",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 18.4,
+      "tokens_in": 679,
+      "tokens_out": 115,
+      "repair": false
+    },
+    {
+      "step": "judge:S02",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.82,
+      "tokens_in": 798,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S04",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 10.59,
+      "tokens_in": 593,
+      "tokens_out": 121,
+      "repair": false
+    },
+    {
+      "step": "judge:S04",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.68,
+      "tokens_in": 718,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S05",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 14.93,
+      "tokens_in": 2440,
+      "tokens_out": 127,
+      "repair": false
+    },
+    {
+      "step": "judge:S05",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.81,
+      "tokens_in": 2570,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S06",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 13.65,
+      "tokens_in": 808,
+      "tokens_out": 113,
+      "repair": false
+    },
+    {
+      "step": "judge:S06",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.77,
+      "tokens_in": 923,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S07",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 11.06,
+      "tokens_in": 3487,
+      "tokens_out": 140,
+      "repair": false
+    },
+    {
+      "step": "judge:S07",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.84,
+      "tokens_in": 3630,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S08",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 14.07,
+      "tokens_in": 1509,
+      "tokens_out": 118,
+      "repair": false
+    },
+    {
+      "step": "judge:S08",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.72,
+      "tokens_in": 1629,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S09",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 13.73,
+      "tokens_in": 1561,
+      "tokens_out": 144,
+      "repair": false
+    },
+    {
+      "step": "judge:S09",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.78,
+      "tokens_in": 1707,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S10",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 16.07,
+      "tokens_in": 4301,
+      "tokens_out": 125,
+      "repair": false
+    },
+    {
+      "step": "judge:S10",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.73,
+      "tokens_in": 4428,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S11",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 9.14,
+      "tokens_in": 1405,
+      "tokens_out": 123,
+      "repair": false
+    },
+    {
+      "step": "judge:S11",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.63,
+      "tokens_in": 1531,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S12",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 10.25,
+      "tokens_in": 34745,
+      "tokens_out": 132,
+      "repair": false
+    },
+    {
+      "step": "judge:S12",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.97,
+      "tokens_in": 34875,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S13",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 13.73,
+      "tokens_in": 3454,
+      "tokens_out": 124,
+      "repair": false
+    },
+    {
+      "step": "judge:S13",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.87,
+      "tokens_in": 3576,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S14",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 14.88,
+      "tokens_in": 1966,
+      "tokens_out": 125,
+      "repair": false
+    },
+    {
+      "step": "judge:S14",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.72,
+      "tokens_in": 2093,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S15",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 19.73,
+      "tokens_in": 1937,
+      "tokens_out": 133,
+      "repair": false
+    },
+    {
+      "step": "judge:S15",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.74,
+      "tokens_in": 2068,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S16",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 20.52,
+      "tokens_in": 16382,
+      "tokens_out": 155,
+      "repair": false
+    },
+    {
+      "step": "judge:S16",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.89,
+      "tokens_in": 16539,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S16",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 10.6,
+      "tokens_in": 16571,
+      "tokens_out": 142,
+      "repair": false
+    },
+    {
+      "step": "judge:S16:rev",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.86,
+      "tokens_in": 16527,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S17",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 14.08,
+      "tokens_in": 7563,
+      "tokens_out": 117,
+      "repair": false
+    },
+    {
+      "step": "judge:S17",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.82,
+      "tokens_in": 7678,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S18",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 16.78,
+      "tokens_in": 30264,
+      "tokens_out": 138,
+      "repair": false
+    },
+    {
+      "step": "judge:S18",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.93,
+      "tokens_in": 30404,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S19",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 11.92,
+      "tokens_in": 424,
+      "tokens_out": 108,
+      "repair": false
+    },
+    {
+      "step": "judge:S19",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.64,
+      "tokens_in": 532,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "summary:S20",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 15.94,
+      "tokens_in": 3517,
+      "tokens_out": 129,
+      "repair": false
+    },
+    {
+      "step": "judge:S20",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.74,
+      "tokens_in": 3646,
+      "tokens_out": 37,
+      "repair": false
+    },
+    {
+      "step": "bullets",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 24.1,
+      "tokens_in": 2622,
+      "tokens_out": 288,
+      "repair": false
+    },
+    {
+      "step": "judge:bullets",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 1.42,
+      "tokens_in": 2879,
+      "tokens_out": 429,
+      "repair": false
+    },
+    {
+      "step": "themes:00",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 5.48,
+      "tokens_in": 5591,
+      "tokens_out": 653,
+      "repair": false
+    },
+    {
+      "step": "themes:01",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 42.66,
+      "tokens_in": 6743,
+      "tokens_out": 648,
+      "repair": false
+    },
+    {
+      "step": "themes:02",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 9.76,
+      "tokens_in": 6894,
+      "tokens_out": 621,
+      "repair": false
+    },
+    {
+      "step": "themes:03",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 33.19,
+      "tokens_in": 9562,
+      "tokens_out": 595,
+      "repair": false
+    },
+    {
+      "step": "themes:04",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 112.04,
+      "tokens_in": 9721,
+      "tokens_out": 575,
+      "repair": false
+    },
+    {
+      "step": "themes:05",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 50.07,
+      "tokens_in": 9402,
+      "tokens_out": 655,
+      "repair": false
+    },
+    {
+      "step": "themes:06",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 110.78,
+      "tokens_in": 8280,
+      "tokens_out": 591,
+      "repair": false
+    },
+    {
+      "step": "themes:07",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 22.66,
+      "tokens_in": 6452,
+      "tokens_out": 649,
+      "repair": false
+    },
+    {
+      "step": "themes:08",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 5.79,
+      "tokens_in": 5709,
+      "tokens_out": 682,
+      "repair": false
+    },
+    {
+      "step": "themes:09",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.7,
+      "tokens_in": 6369,
+      "tokens_out": 607,
+      "repair": false
+    },
+    {
+      "step": "themes:10",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 27.71,
+      "tokens_in": 5665,
+      "tokens_out": 544,
+      "repair": false
+    },
+    {
+      "step": "themes:11",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 3.55,
+      "tokens_in": 6174,
+      "tokens_out": 435,
+      "repair": false
+    },
+    {
+      "step": "themes:12",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.93,
+      "tokens_in": 6454,
+      "tokens_out": 413,
+      "repair": false
+    },
+    {
+      "step": "themes:13",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 17.91,
+      "tokens_in": 6938,
+      "tokens_out": 585,
+      "repair": false
+    },
+    {
+      "step": "themes:14",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 5.6,
+      "tokens_in": 7008,
+      "tokens_out": 587,
+      "repair": false
+    },
+    {
+      "step": "themes:15",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 16.33,
+      "tokens_in": 7785,
+      "tokens_out": 562,
+      "repair": false
+    },
+    {
+      "step": "themes:16",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 17.35,
+      "tokens_in": 8983,
+      "tokens_out": 624,
+      "repair": false
+    },
+    {
+      "step": "themes:17",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 105.97,
+      "tokens_in": 6201,
+      "tokens_out": 560,
+      "repair": false
+    },
+    {
+      "step": "points",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 34.14,
+      "tokens_in": 21180,
+      "tokens_out": 877,
+      "repair": false
+    },
+    {
+      "step": "judge:points",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 2.09,
+      "tokens_in": 963,
+      "tokens_out": 690,
+      "repair": false
+    },
+    {
+      "step": "indicators",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 14.97,
+      "tokens_in": 9404,
+      "tokens_out": 577,
+      "repair": false
+    },
+    {
+      "step": "audit:indicators",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 1.67,
+      "tokens_in": 9568,
+      "tokens_out": 463,
+      "repair": false
+    },
+    {
+      "step": "series:Table 1",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 10.23,
+      "tokens_in": 2543,
+      "tokens_out": 351,
+      "repair": false
+    },
+    {
+      "step": "series:Table 6",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 8.15,
+      "tokens_in": 1130,
+      "tokens_out": 230,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q01",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 3.39,
+      "tokens_in": 2181,
+      "tokens_out": 106,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q01",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 1.01,
+      "tokens_in": 2255,
+      "tokens_out": 84,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q02",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.72,
+      "tokens_in": 1478,
+      "tokens_out": 46,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q02",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.68,
+      "tokens_in": 1513,
+      "tokens_out": 89,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q03",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 5.49,
+      "tokens_in": 2128,
+      "tokens_out": 169,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q03",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.8,
+      "tokens_in": 2258,
+      "tokens_out": 114,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q04",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 6.73,
+      "tokens_in": 2073,
+      "tokens_out": 156,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q04",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.81,
+      "tokens_in": 2190,
+      "tokens_out": 106,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q05",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 3.5,
+      "tokens_in": 2483,
+      "tokens_out": 125,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q05",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.73,
+      "tokens_in": 2585,
+      "tokens_out": 115,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q06",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.29,
+      "tokens_in": 1804,
+      "tokens_out": 116,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q06",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.91,
+      "tokens_in": 1889,
+      "tokens_out": 95,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q07",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 3.55,
+      "tokens_in": 2202,
+      "tokens_out": 56,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q07",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.69,
+      "tokens_in": 2235,
+      "tokens_out": 99,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q08",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 2.44,
+      "tokens_in": 2443,
+      "tokens_out": 45,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q08",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.97,
+      "tokens_in": 2466,
+      "tokens_out": 83,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q09",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 9.29,
+      "tokens_in": 2218,
+      "tokens_out": 163,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q09",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.76,
+      "tokens_in": 2334,
+      "tokens_out": 108,
+      "repair": false
+    },
+    {
+      "step": "answer:single:Q10",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 3.89,
+      "tokens_in": 2203,
+      "tokens_out": 41,
+      "repair": false
+    },
+    {
+      "step": "judge:single:Q10",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.65,
+      "tokens_in": 2233,
+      "tokens_out": 83,
+      "repair": false
+    },
+    {
+      "step": "probes:Q01",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 7.09,
+      "tokens_in": 106,
+      "tokens_out": 59,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q01",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.68,
+      "tokens_in": 2299,
+      "tokens_out": 96,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q01",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.73,
+      "tokens_in": 2372,
+      "tokens_out": 94,
+      "repair": false
+    },
+    {
+      "step": "probes:Q02",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.69,
+      "tokens_in": 100,
+      "tokens_out": 46,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q02",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.03,
+      "tokens_in": 1932,
+      "tokens_out": 125,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q02",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.72,
+      "tokens_in": 2041,
+      "tokens_out": 84,
+      "repair": false
+    },
+    {
+      "step": "probes:Q03",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 5.15,
+      "tokens_in": 105,
+      "tokens_out": 55,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q03",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 8.69,
+      "tokens_in": 2128,
+      "tokens_out": 193,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q03",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.74,
+      "tokens_in": 2274,
+      "tokens_out": 117,
+      "repair": false
+    },
+    {
+      "step": "probes:Q04",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 6.19,
+      "tokens_in": 101,
+      "tokens_out": 69,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q04",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 7.24,
+      "tokens_in": 2150,
+      "tokens_out": 144,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q04",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.8,
+      "tokens_in": 2265,
+      "tokens_out": 114,
+      "repair": false
+    },
+    {
+      "step": "probes:Q05",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.38,
+      "tokens_in": 107,
+      "tokens_out": 59,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q05",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 3.42,
+      "tokens_in": 1956,
+      "tokens_out": 110,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q05",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 1.06,
+      "tokens_in": 2050,
+      "tokens_out": 106,
+      "repair": false
+    },
+    {
+      "step": "probes:Q06",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 5.49,
+      "tokens_in": 107,
+      "tokens_out": 54,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q06",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.09,
+      "tokens_in": 2135,
+      "tokens_out": 109,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q06",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.91,
+      "tokens_in": 2220,
+      "tokens_out": 104,
+      "repair": false
+    },
+    {
+      "step": "probes:Q07",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 5.38,
+      "tokens_in": 100,
+      "tokens_out": 50,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q07",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 3.41,
+      "tokens_in": 2059,
+      "tokens_out": 70,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q07",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.68,
+      "tokens_in": 2098,
+      "tokens_out": 88,
+      "repair": false
+    },
+    {
+      "step": "probes:Q08",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 6.27,
+      "tokens_in": 97,
+      "tokens_out": 40,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q08",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 2.97,
+      "tokens_in": 2317,
+      "tokens_out": 51,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q08",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.89,
+      "tokens_in": 2345,
+      "tokens_out": 79,
+      "repair": false
+    },
+    {
+      "step": "probes:Q09",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 5.65,
+      "tokens_in": 100,
+      "tokens_out": 48,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q09",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.88,
+      "tokens_in": 2180,
+      "tokens_out": 130,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q09",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.78,
+      "tokens_in": 2275,
+      "tokens_out": 102,
+      "repair": false
+    },
+    {
+      "step": "probes:Q10",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 5.0,
+      "tokens_in": 103,
+      "tokens_out": 50,
+      "repair": false
+    },
+    {
+      "step": "answer:hybrid:Q10",
+      "role": "writer",
+      "model": "gemini-3.8-flash",
+      "origin": "stored",
+      "seconds": 4.61,
+      "tokens_in": 2190,
+      "tokens_out": 41,
+      "repair": false
+    },
+    {
+      "step": "judge:hybrid:Q10",
+      "role": "judge",
+      "model": "gemini-3.5-flash-lite",
+      "origin": "stored",
+      "seconds": 0.97,
+      "tokens_in": 2220,
+      "tokens_out": 89,
+      "repair": false
+    }
+  ]
+}

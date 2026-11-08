@@ -1,0 +1,1628 @@
+{
+  "themes": [
+    {
+      "theme": "Inflation & Prices",
+      "lexicon_matches": 116,
+      "llm_primary_chunks": 14,
+      "llm_any_chunks": 54
+    },
+    {
+      "theme": "Interest Rates & Credit",
+      "lexicon_matches": 54,
+      "llm_primary_chunks": 4,
+      "llm_any_chunks": 26
+    },
+    {
+      "theme": "Housing & Real Estate",
+      "lexicon_matches": 9,
+      "llm_primary_chunks": 0,
+      "llm_any_chunks": 3
+    },
+    {
+      "theme": "Banking Capital & Liquidity",
+      "lexicon_matches": 46,
+      "llm_primary_chunks": 5,
+      "llm_any_chunks": 13
+    },
+    {
+      "theme": "Sovereign Debt",
+      "lexicon_matches": 625,
+      "llm_primary_chunks": 146,
+      "llm_any_chunks": 199
+    },
+    {
+      "theme": "Labor Market Dynamics",
+      "lexicon_matches": 33,
+      "llm_primary_chunks": 1,
+      "llm_any_chunks": 11
+    },
+    {
+      "theme": "Systemic Financial Risk",
+      "lexicon_matches": 10,
+      "llm_primary_chunks": 0,
+      "llm_any_chunks": 4
+    }
+  ],
+  "kendall_tau_any": 1.0,
+  "kendall_tau_primary": 0.8783100656536799,
+  "chunk_agreement": 0.5917602996254682,
+  "none_chunks": 97,
+  "labels": [
+    {
+      "chunk_id": "C000",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C001",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C002",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C003",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C004",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C005",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C006",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C007",
+      "primary": "none",
+      "others": [
+        "Banking Capital & Liquidity",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C008",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C009",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices",
+        "Labor Market Dynamics"
+      ]
+    },
+    {
+      "chunk_id": "C010",
+      "primary": "Inflation & Prices",
+      "others": []
+    },
+    {
+      "chunk_id": "C011",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C012",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C013",
+      "primary": "Banking Capital & Liquidity",
+      "others": [
+        "Interest Rates & Credit",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C014",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C015",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Interest Rates & Credit",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C016",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C017",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C018",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C019",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C020",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C021",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C022",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C023",
+      "primary": "Inflation & Prices",
+      "others": []
+    },
+    {
+      "chunk_id": "C024",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C025",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C026",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C027",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C028",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C029",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C030",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C031",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C032",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C033",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C034",
+      "primary": "Banking Capital & Liquidity",
+      "others": [
+        "Housing & Real Estate",
+        "Interest Rates & Credit",
+        "Systemic Financial Risk"
+      ]
+    },
+    {
+      "chunk_id": "C035",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C036",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C037",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C038",
+      "primary": "Interest Rates & Credit",
+      "others": [
+        "Banking Capital & Liquidity",
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C039",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C040",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C041",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C042",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C043",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C044",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C045",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C046",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C047",
+      "primary": "Inflation & Prices",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C048",
+      "primary": "Inflation & Prices",
+      "others": []
+    },
+    {
+      "chunk_id": "C049",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C050",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C051",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C052",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C053",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C054",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C055",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C056",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C057",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C058",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C059",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C060",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C061",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C062",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C063",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C064",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C065",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C066",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C067",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C068",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C069",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C070",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C071",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C072",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C073",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C074",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C075",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C076",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C077",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C078",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C079",
+      "primary": "Interest Rates & Credit",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C080",
+      "primary": "Interest Rates & Credit",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C081",
+      "primary": "Interest Rates & Credit",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C082",
+      "primary": "none",
+      "others": [
+        "Banking Capital & Liquidity",
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C083",
+      "primary": "Banking Capital & Liquidity",
+      "others": [
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C084",
+      "primary": "Banking Capital & Liquidity",
+      "others": [
+        "Housing & Real Estate",
+        "Interest Rates & Credit",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C085",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C086",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C087",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C088",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C089",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C090",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C091",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C092",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C093",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C094",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C095",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C096",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C097",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C098",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C099",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C100",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C101",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C102",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C103",
+      "primary": "Inflation & Prices",
+      "others": []
+    },
+    {
+      "chunk_id": "C104",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C105",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C106",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C107",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C108",
+      "primary": "none",
+      "others": [
+        "Labor Market Dynamics"
+      ]
+    },
+    {
+      "chunk_id": "C109",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C110",
+      "primary": "none",
+      "others": [
+        "Labor Market Dynamics",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C111",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C112",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C113",
+      "primary": "none",
+      "others": [
+        "Housing & Real Estate",
+        "Labor Market Dynamics"
+      ]
+    },
+    {
+      "chunk_id": "C114",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C115",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt",
+        "Systemic Financial Risk"
+      ]
+    },
+    {
+      "chunk_id": "C116",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C117",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C118",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C119",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C120",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C121",
+      "primary": "Inflation & Prices",
+      "others": [
+        "Sovereign Debt",
+        "Labor Market Dynamics",
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C122",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices",
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C123",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C124",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C125",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C126",
+      "primary": "none",
+      "others": [
+        "Labor Market Dynamics"
+      ]
+    },
+    {
+      "chunk_id": "C127",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C128",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C129",
+      "primary": "Inflation & Prices",
+      "others": [
+        "Banking Capital & Liquidity",
+        "Interest Rates & Credit",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C130",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C131",
+      "primary": "Inflation & Prices",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C132",
+      "primary": "Inflation & Prices",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C133",
+      "primary": "Inflation & Prices",
+      "others": [
+        "Labor Market Dynamics"
+      ]
+    },
+    {
+      "chunk_id": "C134",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C135",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C136",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C137",
+      "primary": "Inflation & Prices",
+      "others": []
+    },
+    {
+      "chunk_id": "C138",
+      "primary": "Inflation & Prices",
+      "others": []
+    },
+    {
+      "chunk_id": "C139",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C140",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Labor Market Dynamics",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C141",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C142",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C143",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C144",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C145",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C146",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C147",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C148",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C149",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C150",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C151",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C152",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C153",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C154",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C155",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C156",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C157",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C158",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C159",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C160",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C161",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C162",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C163",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C164",
+      "primary": "Banking Capital & Liquidity",
+      "others": [
+        "Interest Rates & Credit",
+        "Systemic Financial Risk"
+      ]
+    },
+    {
+      "chunk_id": "C165",
+      "primary": "none",
+      "others": [
+        "Banking Capital & Liquidity",
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C166",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C167",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C168",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C169",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C170",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C171",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C172",
+      "primary": "none",
+      "others": [
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C173",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C174",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C175",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C176",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C177",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C178",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C179",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C180",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C181",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C182",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C183",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C184",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C185",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C186",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C187",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C188",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C189",
+      "primary": "Labor Market Dynamics",
+      "others": []
+    },
+    {
+      "chunk_id": "C190",
+      "primary": "none",
+      "others": [
+        "Labor Market Dynamics"
+      ]
+    },
+    {
+      "chunk_id": "C191",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C192",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C193",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C194",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C195",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C196",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C197",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C198",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Systemic Financial Risk"
+      ]
+    },
+    {
+      "chunk_id": "C199",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C200",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C201",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C202",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C203",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C204",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C205",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C206",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C207",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C208",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C209",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C210",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C211",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C212",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C213",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C214",
+      "primary": "Inflation & Prices",
+      "others": []
+    },
+    {
+      "chunk_id": "C215",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C216",
+      "primary": "none",
+      "others": []
+    },
+    {
+      "chunk_id": "C217",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C218",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Banking Capital & Liquidity"
+      ]
+    },
+    {
+      "chunk_id": "C219",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Banking Capital & Liquidity",
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C220",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C221",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C222",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C223",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C224",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C225",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C226",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C227",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C228",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C229",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C230",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C231",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C232",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C233",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C234",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C235",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C236",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C237",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C238",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C239",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C240",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C241",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C242",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices",
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C243",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C244",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C245",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C246",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C247",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C248",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C249",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Interest Rates & Credit"
+      ]
+    },
+    {
+      "chunk_id": "C250",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C251",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C252",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C253",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C254",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C255",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C256",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C257",
+      "primary": "Sovereign Debt",
+      "others": []
+    },
+    {
+      "chunk_id": "C258",
+      "primary": "Inflation & Prices",
+      "others": []
+    },
+    {
+      "chunk_id": "C259",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C260",
+      "primary": "none",
+      "others": [
+        "Banking Capital & Liquidity",
+        "Inflation & Prices",
+        "Interest Rates & Credit",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C261",
+      "primary": "Sovereign Debt",
+      "others": [
+        "Inflation & Prices"
+      ]
+    },
+    {
+      "chunk_id": "C262",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C263",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C264",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices",
+        "Sovereign Debt"
+      ]
+    },
+    {
+      "chunk_id": "C265",
+      "primary": "none",
+      "others": [
+        "Labor Market Dynamics"
+      ]
+    },
+    {
+      "chunk_id": "C266",
+      "primary": "none",
+      "others": [
+        "Inflation & Prices"
+      ]
+    }
+  ]
+}

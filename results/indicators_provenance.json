@@ -1,0 +1,142 @@
+{
+  "record": {
+    "gdp_growth_forecast_pct": {
+      "value": 4.0,
+      "year": 2023,
+      "pdf_page": 29,
+      "source": "GDP at constant prices",
+      "reason": "Table 1 lists the 2023 projection for GDP at constant prices as 4.0 percent under the 2023 Proj. column."
+    },
+    "headline_inflation_rate_pct": {
+      "value": 3.5,
+      "year": 2023,
+      "pdf_page": 29,
+      "source": "Consumer prices (period average)",
+      "reason": "Table 1 shows both period average and end of period consumer price inflation projected at 3.5 percent for 2023."
+    },
+    "central_bank_policy_rate_pct": {
+      "value": 5.0,
+      "year": 2023,
+      "pdf_page": 23,
+      "source": "In 2023, BEAC raised its main policy rate (TIAO) by 50 basis points to 5 percent in March 2023",
+      "reason": "The text states that regional central bank BEAC increased its policy rate (TIAO) to 5 percent in March 2023."
+    },
+    "non_performing_loan_ratio": {
+      "value": 16.8,
+      "year": 2022,
+      "pdf_page": 37,
+      "source": "Nonperforming loans to total gross loans",
+      "reason": "Table 6 reports the nonperforming loans to total gross loans ratio as 16.8 percent at end-2022 (Q4 2022)."
+    },
+    "unemployment_rate_pct": {
+      "value": null,
+      "year": null,
+      "pdf_page": null,
+      "source": null,
+      "reason": "The report mentions that the unemployment rate is amongst the world's highest, but does not provide a numerical figure."
+    },
+    "tier_1_capital_ratio": {
+      "value": null,
+      "year": null,
+      "pdf_page": null,
+      "source": null,
+      "reason": "The report provides total regulatory capital to risk-weighted assets (capital adequacy ratio), but does not report a separate Tier 1 capital ratio."
+    }
+  },
+  "checks": [
+    {
+      "field": "gdp_growth_forecast_pct",
+      "writer_value": 4.0,
+      "writer_year": 2023.0,
+      "writer_page": 29.0,
+      "hand_value": 4.0,
+      "hand_year": 2023.0,
+      "hand_page": 29.0,
+      "printed_at": "Table 1, GDP at constant prices, 2023 Proj.",
+      "agrees": true,
+      "writer_reason": "Table 1 lists the 2023 projection for GDP at constant prices as 4.0 percent under the 2023 Proj. column.",
+      "judge_verdict": "CORRECT",
+      "judge_reason": "Table 1 on page 29 shows GDP at constant prices growth for 2023 is projected at 4.0 percent."
+    },
+    {
+      "field": "headline_inflation_rate_pct",
+      "writer_value": 3.5,
+      "writer_year": 2023.0,
+      "writer_page": 29.0,
+      "hand_value": 3.5,
+      "hand_year": 2023.0,
+      "hand_page": 29.0,
+      "printed_at": "Table 1, Consumer prices (period average), 2023 Proj.",
+      "agrees": true,
+      "writer_reason": "Table 1 shows both period average and end of period consumer price inflation projected at 3.5 percent for 2023.",
+      "judge_verdict": "CORRECT",
+      "judge_reason": "Table 1 on page 29 shows Consumer prices (period average) for 2023 is projected at 3.5 percent."
+    },
+    {
+      "field": "central_bank_policy_rate_pct",
+      "writer_value": 5.0,
+      "writer_year": 2023.0,
+      "writer_page": 23.0,
+      "hand_value": 5.0,
+      "hand_year": 2023.0,
+      "hand_page": 23.0,
+      "printed_at": "text: BEAC raised its main policy rate (TIAO) ... to 5 percent in March 2023",
+      "agrees": true,
+      "writer_reason": "The text states that regional central bank BEAC increased its policy rate (TIAO) to 5 percent in March 2023.",
+      "judge_verdict": "CORRECT",
+      "judge_reason": "Page 23 states that in March 2023 BEAC raised its main policy rate to 5 percent."
+    },
+    {
+      "field": "non_performing_loan_ratio",
+      "writer_value": 16.8,
+      "writer_year": 2022.0,
+      "writer_page": 37.0,
+      "hand_value": 16.8,
+      "hand_year": 2022.0,
+      "hand_page": 37.0,
+      "printed_at": "Table 6, Nonperforming loans to total gross loans, 2022 Q4",
+      "agrees": true,
+      "writer_reason": "Table 6 reports the nonperforming loans to total gross loans ratio as 16.8 percent at end-2022 (Q4 2022).",
+      "judge_verdict": "CORRECT",
+      "judge_reason": "Table 6 on page 37 shows Nonperforming loans to total gross loans was 16.8 percent in Q4 2022."
+    },
+    {
+      "field": "unemployment_rate_pct",
+      "writer_value": null,
+      "writer_year": null,
+      "writer_page": null,
+      "hand_value": null,
+      "hand_year": null,
+      "hand_page": null,
+      "printed_at": "no figure in the report; p.49 says only that it is among the world's highest",
+      "agrees": true,
+      "writer_reason": "The report mentions that the unemployment rate is amongst the world's highest, but does not provide a numerical figure.",
+      "judge_verdict": "CORRECTLY_NULL",
+      "judge_reason": "No specific numeric unemployment rate figure for a particular year is cited in the text or tables on the referenced page."
+    },
+    {
+      "field": "tier_1_capital_ratio",
+      "writer_value": null,
+      "writer_year": null,
+      "writer_page": null,
+      "hand_value": null,
+      "hand_year": null,
+      "hand_page": null,
+      "printed_at": "not reported; Table 6 gives total regulatory capital to risk-weighted assets only",
+      "agrees": true,
+      "writer_reason": "The report provides total regulatory capital to risk-weighted assets (capital adequacy ratio), but does not report a separate Tier 1 capital ratio.",
+      "judge_verdict": "CORRECTLY_NULL",
+      "judge_reason": "The exact Tier 1 capital ratio is not provided as a discrete field in the referenced financial soundness indicator tables."
+    }
+  ],
+  "pages_sent": [
+    10,
+    23,
+    29,
+    37,
+    49,
+    93,
+    106,
+    107
+  ]
+}

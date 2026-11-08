@@ -1,0 +1,987 @@
+{
+  "columns": {
+    "Table 1": [
+      "2022 CR 23/89",
+      "2022 Prel.",
+      "2023 CR 23/89",
+      "2023 Proj.",
+      "2024 Proj.",
+      "2025 Proj.",
+      "2026 Proj.",
+      "2027 Proj.",
+      "2028 Proj."
+    ],
+    "Table 6": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022 Q2",
+      "2022 Q4"
+    ]
+  },
+  "series": [
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "values": {
+        "2022 CR 23/89": 2.8,
+        "2022 Prel.": 1.7,
+        "2023 CR 23/89": 4.1,
+        "2023 Proj.": 4.0,
+        "2024 Proj.": 4.4,
+        "2025 Proj.": 3.3,
+        "2026 Proj.": 3.8,
+        "2027 Proj.": 3.9,
+        "2028 Proj.": 4.0
+      }
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "values": {
+        "2022 CR 23/89": 0.5,
+        "2022 Prel.": -3.8,
+        "2023 CR 23/89": 4.4,
+        "2023 Proj.": 4.4,
+        "2024 Proj.": 6.5,
+        "2025 Proj.": -0.3,
+        "2026 Proj.": -0.2,
+        "2027 Proj.": 0.0,
+        "2028 Proj.": -0.1
+      }
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "values": {
+        "2022 CR 23/89": 3.3,
+        "2022 Prel.": 3.3,
+        "2023 CR 23/89": 4.0,
+        "2023 Proj.": 3.9,
+        "2024 Proj.": 3.8,
+        "2025 Proj.": 4.3,
+        "2026 Proj.": 4.8,
+        "2027 Proj.": 4.8,
+        "2028 Proj.": 4.8
+      }
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "values": {
+        "2022 CR 23/89": 3.5,
+        "2022 Prel.": 3.0,
+        "2023 CR 23/89": 3.3,
+        "2023 Proj.": 3.5,
+        "2024 Proj.": 3.2,
+        "2025 Proj.": 3.0,
+        "2026 Proj.": 3.0,
+        "2027 Proj.": 3.0,
+        "2028 Proj.": 3.0
+      }
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "values": {
+        "2022 CR 23/89": 99.1,
+        "2022 Prel.": 92.5,
+        "2023 CR 23/89": 92.8,
+        "2023 Proj.": 98.0,
+        "2024 Proj.": 91.6,
+        "2025 Proj.": 87.8,
+        "2026 Proj.": 83.4,
+        "2027 Proj.": 78.5,
+        "2028 Proj.": 72.3
+      }
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "values": {
+        "2022 CR 23/89": 21.6,
+        "2022 Prel.": 19.4,
+        "2023 CR 23/89": 8.5,
+        "2023 Proj.": 3.9,
+        "2024 Proj.": 1.6,
+        "2025 Proj.": -0.1,
+        "2026 Proj.": -1.8,
+        "2027 Proj.": -1.9,
+        "2028 Proj.": -2.3
+      }
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "values": {
+        "2022 CR 23/89": 6.9,
+        "2022 Prel.": 8.9,
+        "2023 CR 23/89": 6.3,
+        "2023 Proj.": 4.0,
+        "2024 Proj.": 4.7,
+        "2025 Proj.": 3.4,
+        "2026 Proj.": 2.6,
+        "2027 Proj.": 3.3,
+        "2028 Proj.": 3.8
+      }
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "values": {
+        "2015": 19.5,
+        "2016": 19.1,
+        "2017": 22.8,
+        "2018": 24.9,
+        "2019": 29.6,
+        "2020": 18.8,
+        "2021": 21.8,
+        "2022 Q2": 22.9,
+        "2022 Q4": 23.1
+      }
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "values": {
+        "2015": 5.0,
+        "2016": 8.0,
+        "2017": 16.2,
+        "2018": 22.5,
+        "2019": 27.5,
+        "2020": 21.0,
+        "2021": 16.9,
+        "2022 Q2": 18.6,
+        "2022 Q4": 16.8
+      }
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "values": {
+        "2015": 51.9,
+        "2016": 38.6,
+        "2017": 35.8,
+        "2018": 36.7,
+        "2019": 35.9,
+        "2020": 53.0,
+        "2021": 64.2,
+        "2022 Q2": 63.8,
+        "2022 Q4": 62.4
+      }
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "values": {
+        "2015": 21.1,
+        "2016": 16.7,
+        "2017": 22.7,
+        "2018": 26.8,
+        "2019": 23.8,
+        "2020": 26.9,
+        "2021": 27.2,
+        "2022 Q2": 32.1,
+        "2022 Q4": 30.9
+      }
+    }
+  ],
+  "cell_comparison": [
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "column": "2022 CR 23/89",
+      "parser": 2.8,
+      "llm": 2.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "column": "2022 Prel.",
+      "parser": 1.7,
+      "llm": 1.7,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "column": "2023 CR 23/89",
+      "parser": 4.1,
+      "llm": 4.1,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "column": "2023 Proj.",
+      "parser": 4.0,
+      "llm": 4.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "column": "2024 Proj.",
+      "parser": 4.4,
+      "llm": 4.4,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "column": "2025 Proj.",
+      "parser": 3.3,
+      "llm": 3.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "column": "2026 Proj.",
+      "parser": 3.8,
+      "llm": 3.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "column": "2027 Proj.",
+      "parser": 3.9,
+      "llm": 3.9,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "GDP at constant prices",
+      "column": "2028 Proj.",
+      "parser": 4.0,
+      "llm": 4.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "column": "2022 CR 23/89",
+      "parser": 0.5,
+      "llm": 0.5,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "column": "2022 Prel.",
+      "parser": -3.8,
+      "llm": -3.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "column": "2023 CR 23/89",
+      "parser": 4.4,
+      "llm": 4.4,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "column": "2023 Proj.",
+      "parser": 4.4,
+      "llm": 4.4,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "column": "2024 Proj.",
+      "parser": 6.5,
+      "llm": 6.5,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "column": "2025 Proj.",
+      "parser": -0.3,
+      "llm": -0.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "column": "2026 Proj.",
+      "parser": -0.2,
+      "llm": -0.2,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "column": "2027 Proj.",
+      "parser": 0.0,
+      "llm": 0.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Oil",
+      "column": "2028 Proj.",
+      "parser": -0.1,
+      "llm": -0.1,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "column": "2022 CR 23/89",
+      "parser": 3.3,
+      "llm": 3.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "column": "2022 Prel.",
+      "parser": 3.3,
+      "llm": 3.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "column": "2023 CR 23/89",
+      "parser": 4.0,
+      "llm": 4.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "column": "2023 Proj.",
+      "parser": 3.9,
+      "llm": 3.9,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "column": "2024 Proj.",
+      "parser": 3.8,
+      "llm": 3.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "column": "2025 Proj.",
+      "parser": 4.3,
+      "llm": 4.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "column": "2026 Proj.",
+      "parser": 4.8,
+      "llm": 4.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "column": "2027 Proj.",
+      "parser": 4.8,
+      "llm": 4.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Non-oil",
+      "column": "2028 Proj.",
+      "parser": 4.8,
+      "llm": 4.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "column": "2022 CR 23/89",
+      "parser": 3.5,
+      "llm": 3.5,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "column": "2022 Prel.",
+      "parser": 3.0,
+      "llm": 3.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "column": "2023 CR 23/89",
+      "parser": 3.3,
+      "llm": 3.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "column": "2023 Proj.",
+      "parser": 3.5,
+      "llm": 3.5,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "column": "2024 Proj.",
+      "parser": 3.2,
+      "llm": 3.2,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "column": "2025 Proj.",
+      "parser": 3.0,
+      "llm": 3.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "column": "2026 Proj.",
+      "parser": 3.0,
+      "llm": 3.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "column": "2027 Proj.",
+      "parser": 3.0,
+      "llm": 3.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Consumer prices (period average)",
+      "column": "2028 Proj.",
+      "parser": 3.0,
+      "llm": 3.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "column": "2022 CR 23/89",
+      "parser": 99.1,
+      "llm": 99.1,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "column": "2022 Prel.",
+      "parser": 92.5,
+      "llm": 92.5,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "column": "2023 CR 23/89",
+      "parser": 92.8,
+      "llm": 92.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "column": "2023 Proj.",
+      "parser": 98.0,
+      "llm": 98.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "column": "2024 Proj.",
+      "parser": 91.6,
+      "llm": 91.6,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "column": "2025 Proj.",
+      "parser": 87.8,
+      "llm": 87.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "column": "2026 Proj.",
+      "parser": 83.4,
+      "llm": 83.4,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "column": "2027 Proj.",
+      "parser": 78.5,
+      "llm": 78.5,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Total public debt (percent of GDP)",
+      "column": "2028 Proj.",
+      "parser": 72.3,
+      "llm": 72.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "column": "2022 CR 23/89",
+      "parser": 21.6,
+      "llm": 21.6,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "column": "2022 Prel.",
+      "parser": 19.4,
+      "llm": 19.4,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "column": "2023 CR 23/89",
+      "parser": 8.5,
+      "llm": 8.5,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "column": "2023 Proj.",
+      "parser": 3.9,
+      "llm": 3.9,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "column": "2024 Proj.",
+      "parser": 1.6,
+      "llm": 1.6,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "column": "2025 Proj.",
+      "parser": -0.1,
+      "llm": -0.1,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "column": "2026 Proj.",
+      "parser": -1.8,
+      "llm": -1.8,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "column": "2027 Proj.",
+      "parser": -1.9,
+      "llm": -1.9,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Current account balance (percent of GDP)",
+      "column": "2028 Proj.",
+      "parser": -2.3,
+      "llm": -2.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "column": "2022 CR 23/89",
+      "parser": 6.9,
+      "llm": 6.9,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "column": "2022 Prel.",
+      "parser": 8.9,
+      "llm": 8.9,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "column": "2023 CR 23/89",
+      "parser": 6.3,
+      "llm": 6.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "column": "2023 Proj.",
+      "parser": 4.0,
+      "llm": 4.0,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "column": "2024 Proj.",
+      "parser": 4.7,
+      "llm": 4.7,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "column": "2025 Proj.",
+      "parser": 3.4,
+      "llm": 3.4,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "column": "2026 Proj.",
+      "parser": 2.6,
+      "llm": 2.6,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "column": "2027 Proj.",
+      "parser": 3.3,
+      "llm": 3.3,
+      "match": true
+    },
+    {
+      "table": "Table 1",
+      "row": "Overall balance (deficit -, payment order basis, percent of GDP)",
+      "column": "2028 Proj.",
+      "parser": 3.8,
+      "llm": 3.8,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "column": "2015",
+      "parser": 19.5,
+      "llm": 19.5,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "column": "2016",
+      "parser": 19.1,
+      "llm": 19.1,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "column": "2017",
+      "parser": 22.8,
+      "llm": 22.8,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "column": "2018",
+      "parser": 24.9,
+      "llm": 24.9,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "column": "2019",
+      "parser": 29.6,
+      "llm": 29.6,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "column": "2020",
+      "parser": 18.8,
+      "llm": 18.8,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "column": "2021",
+      "parser": 21.8,
+      "llm": 21.8,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "column": "2022 Q2",
+      "parser": 22.9,
+      "llm": 22.9,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Regulatory capital to risk-weighted assets",
+      "column": "2022 Q4",
+      "parser": 23.1,
+      "llm": 23.1,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "column": "2015",
+      "parser": 5.0,
+      "llm": 5.0,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "column": "2016",
+      "parser": 8.0,
+      "llm": 8.0,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "column": "2017",
+      "parser": 16.2,
+      "llm": 16.2,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "column": "2018",
+      "parser": 22.5,
+      "llm": 22.5,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "column": "2019",
+      "parser": 27.5,
+      "llm": 27.5,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "column": "2020",
+      "parser": 21.0,
+      "llm": 21.0,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "column": "2021",
+      "parser": 16.9,
+      "llm": 16.9,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "column": "2022 Q2",
+      "parser": 18.6,
+      "llm": 18.6,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Nonperforming loans to total gross loans",
+      "column": "2022 Q4",
+      "parser": 16.8,
+      "llm": 16.8,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "column": "2015",
+      "parser": 51.9,
+      "llm": 51.9,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "column": "2016",
+      "parser": 38.6,
+      "llm": 38.6,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "column": "2017",
+      "parser": 35.8,
+      "llm": 35.8,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "column": "2018",
+      "parser": 36.7,
+      "llm": 36.7,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "column": "2019",
+      "parser": 35.9,
+      "llm": 35.9,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "column": "2020",
+      "parser": 53.0,
+      "llm": 53.0,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "column": "2021",
+      "parser": 64.2,
+      "llm": 64.2,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "column": "2022 Q2",
+      "parser": 63.8,
+      "llm": 63.8,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Provisions to nonperforming loans",
+      "column": "2022 Q4",
+      "parser": 62.4,
+      "llm": 62.4,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "column": "2015",
+      "parser": 21.1,
+      "llm": 21.1,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "column": "2016",
+      "parser": 16.7,
+      "llm": 16.7,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "column": "2017",
+      "parser": 22.7,
+      "llm": 22.7,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "column": "2018",
+      "parser": 26.8,
+      "llm": 26.8,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "column": "2019",
+      "parser": 23.8,
+      "llm": 23.8,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "column": "2020",
+      "parser": 26.9,
+      "llm": 26.9,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "column": "2021",
+      "parser": 27.2,
+      "llm": 27.2,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "column": "2022 Q2",
+      "parser": 32.1,
+      "llm": 32.1,
+      "match": true
+    },
+    {
+      "table": "Table 6",
+      "row": "Liquid assets to total assets",
+      "column": "2022 Q4",
+      "parser": 30.9,
+      "llm": 30.9,
+      "match": true
+    }
+  ]
+}

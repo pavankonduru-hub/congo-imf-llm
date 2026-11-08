@@ -1,0 +1,137 @@
+{
+  "bullets": {
+    "bullets": [
+      {
+        "section_id": "S05",
+        "text": "Real GDP growth is projected to rise to 4 percent in 2023 after reaching 1.7 percent in 2022, while inflation is expected to average 3.5 percent."
+      },
+      {
+        "section_id": "S07",
+        "text": "The 2023 budget targets a non-oil primary deficit of 11.8 percent of non-oil GDP, reflecting a 3.9 percentage point consolidation relative to 2022 underpinned by phased fuel subsidy removals."
+      },
+      {
+        "section_id": "S18",
+        "text": "Total public debt is assessed as sustainable but classified in distress, having declined to 92.5 percent of GDP at end-2022."
+      },
+      {
+        "section_id": "S09",
+        "text": "Authorities must maintain reform momentum by broadening access to finance and strengthening financial sector resilience alongside completing public financial management and governance commitments."
+      },
+      {
+        "section_id": "S02",
+        "text": "Under the Extended Credit Facility arrangement, program performance was weak, as three out of five performance criteria, two out of five indicative targets, and three out of five structural benchmarks were missed."
+      },
+      {
+        "section_id": "S14",
+        "text": "Significant baseline risks include regional conflict escalation, commodity price volatility, and global slowdowns, underscoring the need to build fiscal buffers and accelerate non-oil revenue mobilization."
+      }
+    ]
+  },
+  "verdict": {
+    "checks": [
+      {
+        "number": 1,
+        "supported": true,
+        "reason": "S05 explicitly states that real GDP growth is projected to rise to 4 percent in 2023 after reaching 1.7 percent in 2022, and inflation is expected to average 3.5 percent."
+      },
+      {
+        "number": 2,
+        "supported": true,
+        "reason": "S07 confirms the 2023 budget targets a non-oil primary deficit of 11.8 percent of non-oil GDP, reflecting a 3.9 percentage point consolidation underpinned by phased fuel subsidy removals."
+      },
+      {
+        "number": 3,
+        "supported": true,
+        "reason": "S18 and S07 support that total public debt is assessed as sustainable but classified in distress, having declined to 92.5 percent of GDP at end-2022."
+      },
+      {
+        "number": 4,
+        "supported": true,
+        "reason": "S09 mentions broadening access to finance and strengthening financial sector resilience, alongside PFM and governance commitments."
+      },
+      {
+        "number": 5,
+        "supported": true,
+        "reason": "S02 states that three out of five performance criteria, two out of five indicative targets, and three out of five structural benchmarks were missed."
+      },
+      {
+        "number": 6,
+        "supported": true,
+        "reason": "S14 states that significant baseline risks include regional conflict escalation, commodity price volatility, and global slowdowns, and recommends building fiscal buffers and accelerating non-oil revenue mobilization."
+      }
+    ],
+    "consistency": 5,
+    "completeness": 5,
+    "factual_alignment": 5,
+    "faults": []
+  },
+  "first_round": {
+    "bullets": {
+      "bullets": [
+        {
+          "section_id": "S05",
+          "text": "Real GDP growth is projected to rise to 4 percent in 2023 after reaching 1.7 percent in 2022, while inflation is expected to average 3.5 percent."
+        },
+        {
+          "section_id": "S07",
+          "text": "The 2023 budget targets a non-oil primary deficit of 11.8 percent of non-oil GDP, reflecting a 3.9 percentage point consolidation relative to 2022 underpinned by phased fuel subsidy removals."
+        },
+        {
+          "section_id": "S18",
+          "text": "Total public debt is assessed as sustainable but classified in distress, having declined to 92.5 percent of GDP at end-2022."
+        },
+        {
+          "section_id": "S09",
+          "text": "Authorities must maintain reform momentum by broadening access to finance and strengthening financial sector resilience alongside completing public financial management and governance commitments."
+        },
+        {
+          "section_id": "S02",
+          "text": "Under the Extended Credit Facility arrangement, program performance was weak, as three out of five performance criteria, two out of five indicative targets, and three out of five structural benchmarks were missed."
+        },
+        {
+          "section_id": "S14",
+          "text": "Significant baseline risks include regional conflict escalation, commodity price volatility, and global slowdowns, underscoring the need to build fiscal buffers and accelerate non-oil revenue mobilization."
+        }
+      ]
+    },
+    "verdict": {
+      "checks": [
+        {
+          "number": 1,
+          "supported": true,
+          "reason": "S05 explicitly states that real GDP growth is projected to rise to 4 percent in 2023 after reaching 1.7 percent in 2022, and inflation is expected to average 3.5 percent."
+        },
+        {
+          "number": 2,
+          "supported": true,
+          "reason": "S07 confirms the 2023 budget targets a non-oil primary deficit of 11.8 percent of non-oil GDP, reflecting a 3.9 percentage point consolidation underpinned by phased fuel subsidy removals."
+        },
+        {
+          "number": 3,
+          "supported": true,
+          "reason": "S18 and S07 support that total public debt is assessed as sustainable but classified in distress, having declined to 92.5 percent of GDP at end-2022."
+        },
+        {
+          "number": 4,
+          "supported": true,
+          "reason": "S09 mentions broadening access to finance and strengthening financial sector resilience, alongside PFM and governance commitments."
+        },
+        {
+          "number": 5,
+          "supported": true,
+          "reason": "S02 states that three out of five performance criteria, two out of five indicative targets, and three out of five structural benchmarks were missed."
+        },
+        {
+          "number": 6,
+          "supported": true,
+          "reason": "S14 states that significant baseline risks include regional conflict escalation, commodity price volatility, and global slowdowns, and recommends building fiscal buffers and accelerating non-oil revenue mobilization."
+        }
+      ],
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5,
+      "faults": []
+    }
+  },
+  "revision_kept": false
+}

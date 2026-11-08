@@ -1,0 +1,67 @@
+{
+  "summarise": {
+    "name": "summarise",
+    "system": "You are an economist who reads IMF staff reports closely. Use only the text you are given, copy numbers exactly as printed, and never add facts from elsewhere.",
+    "user": "Summarise the part of the IMF report titled \"{title}\" (PDF pages {pages}) in {low} to {high} words. Keep the figures that matter, copied as printed, and state the part's main judgement or recommendation. Write plain prose with no list and no heading.{note}\n\nTEXT:\n{text}"
+  },
+  "judge_summary": {
+    "name": "judge_summary",
+    "system": "You check work produced from an IMF staff report against the report's own text. You are strict: anything not supported by the text counts as a fault.",
+    "user": "SOURCE (\"{title}\"):\n{text}\n\nSUMMARY:\n{summary}\n\nScore the summary from 1 (poor) to 5 (exact) on consistency (it never contradicts the source), completeness (the main points of this part are present) and factual_alignment (every figure and claim can be found in the source). List each concrete fault in faults; an empty list means none."
+  },
+  "bullets": {
+    "name": "bullets",
+    "system": "You are an economist who reads IMF staff reports closely. Use only the text you are given, copy numbers exactly as printed, and never add facts from elsewhere.",
+    "user": "Below are summaries of the sections of the report, each with an id. Write {low} to {high} executive summary bullets for a finance ministry reader. Each bullet is one sentence of at most 35 words and gives the id of the section it rests on. Between them the bullets must cover growth and inflation, fiscal policy, public debt, banking soundness, how the program performed, and the main risks.{note}\n\n{summaries}"
+  },
+  "judge_bullets": {
+    "name": "judge_bullets",
+    "system": "You check work produced from an IMF staff report against the report's own text. You are strict: anything not supported by the text counts as a fault.",
+    "user": "Check each numbered BULLET against the section summary whose id it cites. For each give supported (true or false) and a short reason. Then score the set from 1 to 5 on consistency, completeness (does it cover the report's main messages?) and factual_alignment, and list faults.\n\nBULLETS:\n{bullets}\n\nSUMMARIES:\n{summaries}"
+  },
+  "themes": {
+    "name": "themes",
+    "system": "You are an economist who reads IMF staff reports closely. Use only the text you are given, copy numbers exactly as printed, and never add facts from elsewhere.",
+    "user": "Give each passage below the one theme it is mostly about (primary) and any other themes it also discusses (others). Allowed themes: {themes}. Use \"none\" as primary if no theme fits. Return one label per passage id.\n\n{passages}"
+  },
+  "points": {
+    "name": "points",
+    "system": "You are an economist who reads IMF staff reports closely. Use only the text you are given, copy numbers exactly as printed, and never add facts from elsewhere.",
+    "user": "From the staff report text below, list {low} to {high} strengths and {low} to {high} vulnerabilities of the {country} economy as IMF staff see them. For each give a short label (at most 8 words), a one-sentence explanation, the pdf_page, and a quote of 8 to 30 words copied exactly from that page. Pages are marked [p.N].\n\nTEXT:\n{text}"
+  },
+  "judge_points": {
+    "name": "judge_points",
+    "system": "You check work produced from an IMF staff report against the report's own text. You are strict: anything not supported by the text counts as a fault.",
+    "user": "For each numbered POINT, say whether its quote supports the label and explanation (supported) and whether it is rightly classed as a strength or a vulnerability (correct_class), with a short reason.\n\n{points}"
+  },
+  "indicators": {
+    "name": "indicators",
+    "system": "You are an economist who reads IMF staff reports closely. Use only the text you are given, copy numbers exactly as printed, and never add facts from elsewhere.",
+    "user": "Fill the indicator record for {country} from the pages below. For each field use the most recent figure the report gives for the report year or the year ahead; in Table 1 that is the column marked 2023 Proj., not the older CR 23/89 vintage. Give value, year, pdf_page, source (the table row label or the sentence the figure comes from) and reason. If the report gives no figure for a field, set value, year and pdf_page to null and say why in reason. Never compute or estimate a figure.\n\nFIELDS:\n{fields}\n\nPAGES:\n{pages}"
+  },
+  "audit_indicators": {
+    "name": "audit_indicators",
+    "system": "You check work produced from an IMF staff report against the report's own text. You are strict: anything not supported by the text counts as a fault.",
+    "user": "Each ITEM is a figure another model took from the report. Look at its cited page and give a verdict: CORRECT (the page shows this value for this field and year), WRONG (the page shows a different value; give it in page_shows), NOT_FOUND (the page has no such figure), CORRECTLY_NULL (the report has no figure and null is right) or MISSED (null was given but the pages do show a figure; give it). Add a short reason.\n\nITEMS:\n{items}\n\nPAGES:\n{pages}"
+  },
+  "series": {
+    "name": "series",
+    "system": "You are an economist who reads IMF staff reports closely. Use only the text you are given, copy numbers exactly as printed, and never add facts from elsewhere.",
+    "user": "From the table below copy every value of these rows: {rows}. The columns, in order, are: {columns}. Use null for an empty cell or one that shows ... and copy numbers exactly.\n\nTABLE (PDF page {page}):\n{table}"
+  },
+  "answer": {
+    "name": "answer",
+    "system": "You are an economist who reads IMF staff reports closely. Use only the text you are given, copy numbers exactly as printed, and never add facts from elsewhere.",
+    "user": "QUESTION: {question}\n\nAnswer from the numbered passages only, in at most 80 words, and cite the passage ids you used in square brackets, for example [C12]. If the passages do not hold the answer, say so plainly, cite nothing and set answerable to false.\n\nPASSAGES:\n{passages}"
+  },
+  "judge_answer": {
+    "name": "judge_answer",
+    "system": "You check work produced from an IMF staff report against the report's own text. You are strict: anything not supported by the text counts as a fault.",
+    "user": "QUESTION: {question}\n\nANSWER:\n{answer}\n\nPASSAGES:\n{passages}\n\nScore faithfulness from 1 to 5 (every claim in the answer is backed by the passages) and completeness from 1 to 5 (the answer gives what the passages say about the question; a plain refusal is complete when the passages do not answer it). Give one sentence of reason for each score."
+  },
+  "probes": {
+    "name": "probes",
+    "system": "You are an economist who reads IMF staff reports closely. Use only the text you are given, copy numbers exactly as printed, and never add facts from elsewhere.",
+    "user": "QUESTION: {question}\n\nDo not answer the question. Write one step-back question about the broader topic behind it (step_back), and {n} short keyword search queries of 4 to 8 words that use the terms an IMF staff report would use (keywords)."
+  }
+}

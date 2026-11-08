@@ -1,0 +1,583 @@
+{
+  "settings": {
+    "top_k": 5,
+    "bm25_share": 0.4,
+    "keyword_rewrites": 3
+  },
+  "summary": [
+    {
+      "arm": "A single dense",
+      "gold page reached (of 9)": 9,
+      "mean gold recall": 0.722,
+      "judge faithfulness (10)": 5.0,
+      "judge completeness (10)": 5.0,
+      "Q10 declined": true,
+      "retrieval seconds per question": 0.094,
+      "extra model tokens per question": 0.0,
+      "extra model seconds per question": 0.0
+    },
+    {
+      "arm": "B multi-query dense",
+      "gold page reached (of 9)": 8,
+      "mean gold recall": 0.648,
+      "judge faithfulness (10)": null,
+      "judge completeness (10)": null,
+      "Q10 declined": null,
+      "retrieval seconds per question": 0.561,
+      "extra model tokens per question": 155.6,
+      "extra model seconds per question": 5.529
+    },
+    {
+      "arm": "C multi-query hybrid",
+      "gold page reached (of 9)": 8,
+      "mean gold recall": 0.722,
+      "judge faithfulness (10)": 5.0,
+      "judge completeness (10)": 5.0,
+      "Q10 declined": true,
+      "retrieval seconds per question": 0.613,
+      "extra model tokens per question": 155.6,
+      "extra model seconds per question": 5.529
+    }
+  ],
+  "per_question": [
+    {
+      "qid": "Q01",
+      "step_back": "What are the financial terms and disbursement schedules under the IMF Extended Credit Facility arrangement for the Republic of Congo?",
+      "keywords": [
+        "Republic of Congo third review Extended Credit Facility disbursement",
+        "Executive Board completes third review ECF arrangement Congo",
+        "Republic of Congo ECF arrangement SDR million disbursement"
+      ],
+      "probe_seconds": 7.09,
+      "probe_tokens": 165,
+      "A_retrieved": [
+        "C097",
+        "C086",
+        "C039",
+        "C001",
+        "C055"
+      ],
+      "A_page_hit": true,
+      "A_gold_recall": 1.0,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.133,
+      "A_answerable": true,
+      "B_retrieved": [
+        "C001",
+        "C097",
+        "C039",
+        "C086",
+        "C116"
+      ],
+      "B_seconds": 0.495,
+      "B_page_hit": true,
+      "B_gold_recall": 1.0,
+      "C_retrieved": [
+        "C001",
+        "C097",
+        "C000",
+        "C259",
+        "C192"
+      ],
+      "C_seconds": 0.44,
+      "C_page_hit": true,
+      "C_gold_recall": 1.0,
+      "C_answer": "The completion of the third review under the Extended Credit Facility (ECF) allowed for an immediate disbursement of SDR 32.4 million (about US$43 million) to the Republic of Congo [C001], corresponding to 20 percent of its quota [C097].",
+      "C_citations": [
+        "C001",
+        "C097"
+      ],
+      "C_answerable": true,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "Every claim made in the answer, including the disbursement amount in SDR and USD and the percentage of quota, is directly supported by the provided text.",
+      "C_completeness_reason": "The answer fully addresses the question using all the relevant financial details provided in the text regarding the completion of the third ECF review."
+    },
+    {
+      "qid": "Q02",
+      "step_back": "What is the overall track record of compliance with IMF program conditionality?",
+      "keywords": [
+        "quantitative performance criteria indicative targets structural benchmarks",
+        "performance criteria indicative targets met not met",
+        "implementation of structural benchmarks and quantitative targets"
+      ],
+      "probe_seconds": 4.69,
+      "probe_tokens": 146,
+      "A_retrieved": [
+        "C100",
+        "C170",
+        "C018",
+        "C167",
+        "C257"
+      ],
+      "A_page_hit": true,
+      "A_gold_recall": 0.3333333333333333,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.083,
+      "A_answerable": false,
+      "B_retrieved": [
+        "C170",
+        "C100",
+        "C180",
+        "C167",
+        "C186"
+      ],
+      "B_seconds": 0.39,
+      "B_page_hit": false,
+      "B_gold_recall": 0.0,
+      "C_retrieved": [
+        "C167",
+        "C170",
+        "C100",
+        "C261",
+        "C174"
+      ],
+      "C_seconds": 0.375,
+      "C_page_hit": false,
+      "C_gold_recall": 0.0,
+      "C_answer": "According to [C261], two of the five end-December 2022 quantitative performance criteria were not met, and the continuous performance criterion on non-accumulation of new external debt arrears was not met at end-March 2023. Two end-December indicative targets were missed (three out of five were met). Regarding structural benchmarks, one out of three end-December benchmarks was met, while one was implemented with delay and the third was partially implemented.",
+      "C_citations": [
+        "C261"
+      ],
+      "C_answerable": true,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "Every detail provided in the answer is directly supported by passage [C261].",
+      "C_completeness_reason": "The answer fully addresses the question by detailing how many performance criteria, indicative targets, and structural benchmarks were missed based on the provided text."
+    },
+    {
+      "qid": "Q03",
+      "step_back": "What were the broader macroeconomic trends and output dynamics characterizing recent economic performance?",
+      "keywords": [
+        "real GDP growth 2022 drivers domestic demand",
+        "recent economic developments real output growth contributions",
+        "macroeconomic performance economic activity sector growth 2022"
+      ],
+      "probe_seconds": 5.15,
+      "probe_tokens": 160,
+      "A_retrieved": [
+        "C010",
+        "C260",
+        "C015",
+        "C129",
+        "C212"
+      ],
+      "A_page_hit": true,
+      "A_gold_recall": 1.0,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.112,
+      "A_answerable": true,
+      "B_retrieved": [
+        "C260",
+        "C015",
+        "C129",
+        "C010",
+        "C206"
+      ],
+      "B_seconds": 0.498,
+      "B_page_hit": true,
+      "B_gold_recall": 1.0,
+      "C_retrieved": [
+        "C260",
+        "C129",
+        "C015",
+        "C212",
+        "C010"
+      ],
+      "C_seconds": 0.656,
+      "C_page_hit": true,
+      "C_gold_recall": 1.0,
+      "C_answer": "In 2022, economic growth was estimated at 1.7 percent [C010], [C129], [C260]. Growth was driven by the non-oil sector, which expanded by 3.3 percent [C010], [C129]. Consumption and investment were spurred by government spending (including social spending and infrastructure) and domestic arrears payments [C010], [C129], [C260], along with increased, dynamic activity in the agriculture, manufacturing, and services sectors [C010], [C129], [C212].",
+      "C_citations": [
+        "C010",
+        "C129",
+        "C212",
+        "C260"
+      ],
+      "C_answerable": true,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "Every claim made in the answer regarding the 2022 economic growth rate, the non-oil sector growth, government spending, arrears, and sectoral activity is explicitly and accurately supported by the provided text.",
+      "C_completeness_reason": "The answer fully addresses both parts of the question by detailing the exact economic growth rate for 2022 and comprehensively explaining the drivers of that growth as outlined in the text."
+    },
+    {
+      "qid": "Q04",
+      "step_back": "What energy pricing reforms and policy conditionalities were established as prior actions under the program?",
+      "keywords": [
+        "prior action fuel price subsidy adjustment",
+        "table of prior actions fuel pricing mechanism",
+        "implementation of fuel price increase prior action"
+      ],
+      "probe_seconds": 6.19,
+      "probe_tokens": 170,
+      "A_retrieved": [
+        "C258",
+        "C023",
+        "C137",
+        "C138",
+        "C152"
+      ],
+      "A_page_hit": true,
+      "A_gold_recall": 0.6666666666666666,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.086,
+      "A_answerable": true,
+      "B_retrieved": [
+        "C023",
+        "C138",
+        "C137",
+        "C258",
+        "C152"
+      ],
+      "B_seconds": 0.705,
+      "B_page_hit": true,
+      "B_gold_recall": 0.6666666666666666,
+      "C_retrieved": [
+        "C023",
+        "C258",
+        "C138",
+        "C151",
+        "C035"
+      ],
+      "C_seconds": 0.752,
+      "C_page_hit": true,
+      "C_gold_recall": 0.6666666666666666,
+      "C_answer": "The prior action required gasoline prices to be increased by at least 10 percent before completing the third review [C023]. In response, the authorities committed to increasing gasoline prices by 25 percent while aligning fuel prices paid by all manufacturers to at least pump prices [C138]. Ultimately, the authorities announced a 24 percent increase in the gasoline price via a joint ministerial decree, effective July 15, 2023, which met the requirement [C258].",
+      "C_citations": [
+        "C023",
+        "C138",
+        "C258"
+      ],
+      "C_answerable": true,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "Every claim made in the answer regarding the fuel price measures, including the 10 percent requirement, the 25 percent commitment, and the final 24 percent decree aligning manufacturer prices, is directly supported by the text.",
+      "C_completeness_reason": "The answer fully addresses the question by detailing the prior action requirement, the authorities' commitment, and the final measure taken as confirmed by the passages."
+    },
+    {
+      "qid": "Q05",
+      "step_back": "How did monetary policy stance and interest rate settings evolve in the CEMAC region in recent years?",
+      "keywords": [
+        "BEAC policy rate monetary policy stance CEMAC",
+        "BEAC policy interest rate decision 2023 tightening",
+        "regional central bank BEAC policy interest rate"
+      ],
+      "probe_seconds": 4.38,
+      "probe_tokens": 166,
+      "A_retrieved": [
+        "C038",
+        "C035",
+        "C141",
+        "C049",
+        "C263"
+      ],
+      "A_page_hit": true,
+      "A_gold_recall": 1.0,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.096,
+      "A_answerable": true,
+      "B_retrieved": [
+        "C038",
+        "C035",
+        "C127",
+        "C263",
+        "C141"
+      ],
+      "B_seconds": 0.774,
+      "B_page_hit": true,
+      "B_gold_recall": 1.0,
+      "C_retrieved": [
+        "C038",
+        "C005",
+        "C035",
+        "C115",
+        "C121"
+      ],
+      "C_seconds": 1.204,
+      "C_page_hit": true,
+      "C_gold_recall": 1.0,
+      "C_answer": "In March 2023, BEAC raised its main policy rate (TIAO) by 50 basis points to 5 percent, representing a cumulative increase of 175 basis points since November 2021. For the remainder of 2023, BEAC stood ready to tighten monetary policy further if regional inflation rose or external reserves began deviating from the targeted path.",
+      "C_citations": [
+        "C038"
+      ],
+      "C_answerable": true,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "Every claim in the answer regarding BEAC's policy rate actions in March 2023 and its readiness to tighten further is directly supported by passage C038.",
+      "C_completeness_reason": "The answer fully captures all the relevant information provided in the passages about BEAC's policy rate decisions and future stance during 2023."
+    },
+    {
+      "qid": "Q06",
+      "step_back": "How does the IMF evaluate sovereign debt sustainability and classify the risk of debt distress in member countries?",
+      "keywords": [
+        "Republic of Congo debt sustainability risk of distress",
+        "Republic of Congo debt sustainability assessment staff report",
+        "Republic of Congo public debt judged sustainable distress"
+      ],
+      "probe_seconds": 5.49,
+      "probe_tokens": 161,
+      "A_retrieved": [
+        "C193",
+        "C226",
+        "C225",
+        "C086",
+        "C224"
+      ],
+      "A_page_hit": true,
+      "A_gold_recall": 0.3333333333333333,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.102,
+      "A_answerable": true,
+      "B_retrieved": [
+        "C193",
+        "C224",
+        "C225",
+        "C000",
+        "C223"
+      ],
+      "B_seconds": 1.115,
+      "B_page_hit": true,
+      "B_gold_recall": 0.3333333333333333,
+      "C_retrieved": [
+        "C193",
+        "C225",
+        "C224",
+        "C223",
+        "C228"
+      ],
+      "C_seconds": 0.981,
+      "C_page_hit": true,
+      "C_gold_recall": 0.6666666666666666,
+      "C_answer": "The Republic of Congo's overall risk of debt distress and risk of external debt distress are classified as \"in debt distress\" (or \"in distress\"), with risks remaining high [C193], [C225]. However, both its overall and external debt are assessed to be \"sustainable\" [C193], [C225].",
+      "C_citations": [
+        "C193",
+        "C225"
+      ],
+      "C_answerable": true,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "Every claim in the answer about the Republic of Congo's risk of debt distress and sustainability is directly supported by citations C193 and C225.",
+      "C_completeness_reason": "The answer fully addresses both parts of the question regarding the risk of debt distress and whether the debt is judged sustainable, referencing all pertinent details provided in the text."
+    },
+    {
+      "qid": "Q07",
+      "step_back": "What are the macroeconomic projections and baseline price outlook in the staff report?",
+      "keywords": [
+        "consumer price index inflation projections baseline forecast",
+        "selected economic indicators consumer prices inflation 2023",
+        "staff baseline outlook average inflation end period"
+      ],
+      "probe_seconds": 5.38,
+      "probe_tokens": 150,
+      "A_retrieved": [
+        "C131",
+        "C015",
+        "C263",
+        "C132",
+        "C230"
+      ],
+      "A_page_hit": true,
+      "A_gold_recall": 0.5,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.076,
+      "A_answerable": true,
+      "B_retrieved": [
+        "C015",
+        "C131",
+        "C010",
+        "C263",
+        "C215"
+      ],
+      "B_seconds": 0.41,
+      "B_page_hit": true,
+      "B_gold_recall": 0.5,
+      "C_retrieved": [
+        "C015",
+        "C263",
+        "C010",
+        "C214",
+        "C131"
+      ],
+      "C_seconds": 0.445,
+      "C_page_hit": true,
+      "C_gold_recall": 0.5,
+      "C_answer": "Staff expect inflation to average 3.5 percent in 2023 [C015], [C214].",
+      "C_citations": [
+        "C015",
+        "C214"
+      ],
+      "C_answerable": true,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "The answer directly reflects the statements in the passages that inflation is expected to average 3.5 percent in 2023.",
+      "C_completeness_reason": "The answer provides the exact inflation rate expected by staff for 2023 as mentioned in the text."
+    },
+    {
+      "qid": "Q08",
+      "step_back": "What are the prevailing socioeconomic conditions and poverty trends?",
+      "keywords": [
+        "share of population below poverty line",
+        "poverty headcount ratio extreme poverty rate",
+        "social protection mechanisms and poverty reduction"
+      ],
+      "probe_seconds": 6.27,
+      "probe_tokens": 137,
+      "A_retrieved": [
+        "C095",
+        "C143",
+        "C110",
+        "C142",
+        "C029"
+      ],
+      "A_page_hit": true,
+      "A_gold_recall": 1.0,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.084,
+      "A_answerable": true,
+      "B_retrieved": [
+        "C110",
+        "C142",
+        "C143",
+        "C031",
+        "C029"
+      ],
+      "B_seconds": 0.413,
+      "B_page_hit": true,
+      "B_gold_recall": 1.0,
+      "C_retrieved": [
+        "C031",
+        "C110",
+        "C114",
+        "C185",
+        "C112"
+      ],
+      "C_seconds": 0.473,
+      "C_page_hit": true,
+      "C_gold_recall": 1.0,
+      "C_answer": "Around 40 percent of the population is extremely poor [C110].",
+      "C_citations": [
+        "C110"
+      ],
+      "C_answerable": true,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "The answer directly reflects the statement in passage C110 that around 40 percent of the population is extremely poor.",
+      "C_completeness_reason": "The answer fully addresses the question based on the available information in the text."
+    },
+    {
+      "qid": "Q09",
+      "step_back": "How can natural capital and environmental preservation contribute to fiscal space and sovereign financing?",
+      "keywords": [
+        "Congo Basin forest carbon credits climate finance",
+        "natural capital monetization green financing fiscal revenue",
+        "forest conservation debt for nature swaps financing"
+      ],
+      "probe_seconds": 5.65,
+      "probe_tokens": 148,
+      "A_retrieved": [
+        "C266",
+        "C112",
+        "C004",
+        "C016",
+        "C133"
+      ],
+      "A_page_hit": true,
+      "A_gold_recall": 0.6666666666666666,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.084,
+      "A_answerable": true,
+      "B_retrieved": [
+        "C266",
+        "C004",
+        "C134",
+        "C117",
+        "C133"
+      ],
+      "B_seconds": 0.409,
+      "B_page_hit": true,
+      "B_gold_recall": 0.3333333333333333,
+      "C_retrieved": [
+        "C117",
+        "C264",
+        "C133",
+        "C016",
+        "C134"
+      ],
+      "C_seconds": 0.414,
+      "C_page_hit": true,
+      "C_gold_recall": 0.6666666666666666,
+      "C_answer": "Preservation and afforestation (or reforestation) of the Republic of Congo's share of the Congo Basin may facilitate foreign private financing, such as environmental, social, and governance (ESG) bonds or carbon credits [C016], [C133], [C264]. Furthermore, expansion of the Congo Basin Forest may involve catalyzing private climate finance through strategic partnerships [C117].",
+      "C_citations": [
+        "C016",
+        "C117",
+        "C133",
+        "C264"
+      ],
+      "C_answerable": true,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "Every claim made in the answer, including specific financing mechanisms like ESG bonds, carbon credits, and strategic partnerships, is directly supported by the provided text.",
+      "C_completeness_reason": "The answer thoroughly covers how the preservation, reforestation, and expansion of the Congo Basin forest can facilitate foreign private financing and private climate finance as detailed in the passages."
+    },
+    {
+      "qid": "Q10",
+      "step_back": "What are the medium-term macroeconomic projections for consumer price inflation across the forecast horizon?",
+      "keywords": [
+        "medium term projections consumer price index inflation",
+        "selected economic indicators consumer prices percent change",
+        "macroeconomic framework baseline projection consumer price inflation"
+      ],
+      "probe_seconds": 5.0,
+      "probe_tokens": 153,
+      "A_retrieved": [
+        "C015",
+        "C263",
+        "C131",
+        "C132",
+        "C011"
+      ],
+      "A_page_hit": null,
+      "A_gold_recall": null,
+      "A_faithfulness": 5,
+      "A_completeness": 5,
+      "A_seconds": 0.085,
+      "A_answerable": false,
+      "B_retrieved": [
+        "C010",
+        "C015",
+        "C215",
+        "C023",
+        "C131"
+      ],
+      "B_seconds": 0.406,
+      "B_page_hit": null,
+      "B_gold_recall": null,
+      "C_retrieved": [
+        "C015",
+        "C214",
+        "C010",
+        "C023",
+        "C215"
+      ],
+      "C_seconds": 0.392,
+      "C_page_hit": null,
+      "C_gold_recall": null,
+      "C_answer": "The provided passages do not contain a projected inflation rate for the year 2030.",
+      "C_citations": [],
+      "C_answerable": false,
+      "C_faithfulness": 5,
+      "C_completeness": 5,
+      "C_faithfulness_reason": "The answer correctly identifies that the provided passages do not contain a projected inflation rate for the year 2030.",
+      "C_completeness_reason": "The answer is completely accurate and appropriately states that the information is missing from the text since 2030 is not mentioned."
+    }
+  ]
+}
